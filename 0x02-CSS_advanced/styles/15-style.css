@@ -58,7 +58,7 @@
 @import url('https://github.com/necolas/normalize.css/blob/master/normalize.css');
 
 .box {
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
 
 html {
