@@ -1,18 +1,9 @@
 body {
-    color: var(--text-color);
-    font-family: var(--font-family-base);
-    font-size: var(--font-size-medium);
-    font-weight: var(--font-weight-regular);
-    line-height: var(--line-height-base);
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: var(--font-family-title);
-    font-weight: var(--font-weight-bold);
+   color: #161616;
 }
 
 a {
-    color: var(--text-color);
+    color:#161616;
 }
 
 .visually-hidden {
@@ -20,7 +11,7 @@ a {
 }
 
 .card-category {
-    color: var(--color-primary)
+    color: #D73953;
 }
 
 .section-header {
@@ -28,9 +19,5 @@ a {
 }
 
 .section-tagline {
-    color: var(--color-primary);
-    font-family: var(--font-family-title);
-    transform : var(--section-tagline-transform);
-    font-weight: var(--font-weight-bold);
+    color: #D73953;
 }
-
