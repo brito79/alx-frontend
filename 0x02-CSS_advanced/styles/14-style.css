@@ -54,18 +54,12 @@
     --font-family-base : 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --font-family-title : 'Raleway',  'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
-/*==Normalise.css of html*/
 
-/**
- * 1. Correct the linr height in all browsers
- * 2. Prevent adjustments of the font size after orientation changes in iOS
-*/
+@import url('https://github.com/necolas/normalize.css/blob/master/normalize.css');
 
 html {
     scroll-behavior: smooth;
     font-size: 62.5%;
-    line-height: 1.5 /*1*/; 
-    -webkit-text-size-adjust: 100%;
 }
 
 .section-header {
@@ -102,8 +96,6 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family-title);
     font-weight: var(--font-weight-bold);
-    font-size: 2em; /*Change the fontsize  of `h1` elemnts in `section`*/
-    margin: 0.67em 0;
 }
 
 /*==============pseudo-class===================*/
@@ -128,6 +120,5 @@ a:active {
 a {
     color: var(--text-color);
     text-decoration: none;
-    background-color: transparent;
 }
 
