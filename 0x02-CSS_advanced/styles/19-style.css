@@ -570,7 +570,7 @@ ul.row {
     padding: 0.5rem;
 }
 .col-1-2 {
-    width: 0.5em;
+    width: 50%;
     float: left;
     padding: 0.5rem;
 }
@@ -578,9 +578,9 @@ ul.row {
 .footer-copyright {
     margin: 0;
     font-size: var(--font-size-small);
-    color : var(--text-color)
+    color : var(--text-color);
 }
 
-.footer ul{
+.footer ul {
     text-align: right;
 }
