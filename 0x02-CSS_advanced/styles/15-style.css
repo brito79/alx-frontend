@@ -54,12 +54,12 @@
     --font-family-base : 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --font-family-title : 'Raleway',  'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
-.box {
-    box-sizing: content-box;
-}
 
 @import url('https://github.com/necolas/normalize.css/blob/master/normalize.css');
 
+* {
+    box-sizing:border-box;
+}
 
 html {
     scroll-behavior: smooth;
