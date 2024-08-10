@@ -89,7 +89,8 @@ html {
 
 .container {
     width: 960px;
-    justify-content: space-evenly;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .card-category {
