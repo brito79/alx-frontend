@@ -763,13 +763,19 @@ ul.row {
     vertical-align: bottom;
 }
 
+.card-work:hover .card-image {
+    transform: scale(1.2);
+    transition: var(--transition-duration) var(--transition-cubic-bezier);
+}
+
+
 .card-work .card-inner {
     position: absolute;
     top: -0.1rem;
     left: -0.1rem;
     right: -0.1rem;
     z-index: 1;
-    transition: var(–-transition-duration) var(--transition-cubic-bezier);
+    transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .card-work:hover .card-inner {
@@ -819,13 +825,7 @@ ul.row {
     z-index: -1;
 }
 
-/*================Add transformations on the card work===========*/
 
-.card-work:hover .card-image {
-    transform: scale(1.2);
-    /*===========Add transitions on the card works=======*/
-    transition: var(–-transition-duration) var(--transition-cubic-bezier);
-}
 
 
 
