@@ -835,7 +835,7 @@ ul.row {
 }
 
 /*===========Add transitions on the card works=======*/
-.card-work:hover .card-image {
+card-work:hover .card-image {
     transition: var(–transition-duration) var(transition-cubic-bezier);
 }
 .card-work .card-inner {
