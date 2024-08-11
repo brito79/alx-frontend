@@ -611,7 +611,7 @@ nav .nav-item:hover .nav-link::before {
 }
 
 .nav .nav-link:hover {
-  color: var(--nav-item-link-hover);
+  color: var(--color-primary);
 }
 
 ul.row {
