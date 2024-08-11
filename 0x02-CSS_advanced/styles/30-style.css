@@ -750,7 +750,7 @@ ul.row {
     vertical-align: bottom;
 }
 
-.card-work .card-inner {
+.card-work .card-inner img {
     position: absolute;
     top: -0.1rem;
     left: -0.1rem;
@@ -770,7 +770,7 @@ ul.row {
     position: relative;
 }
 
-.card-work .card-title {
+.card-work .card-title a{
     display: block;
     text-decoration: none;
     padding: 45%;
