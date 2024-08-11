@@ -596,7 +596,7 @@ a {
 /*===========Styling and custom properties for the nav==================*/
 
 .nav .nav-link::before {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
@@ -609,7 +609,6 @@ nav .nav-item:hover .nav-link::before {
     background-color: var(--color-primary);
     width: 100%;
 }
-
 
 .nav .nav-link:hover {
   color: var(--nav-item-link-hover);
