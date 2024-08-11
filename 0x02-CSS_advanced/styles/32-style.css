@@ -824,7 +824,7 @@ ul.row {
 /*===============Add animations on the navigation items==========*/
 
 .nav .nav-link::before {
-    transition: var(–transition-duration) var(transition-cubic-bezier);
+    transition: var(-–transition-duration) var(--transition-cubic-bezier);
 }
 
 /*========Animate the button background=======*/
@@ -836,10 +836,10 @@ ul.row {
 
 /*===========Add transitions on the card works=======*/
 card-work:hover .card-image {
-    transition: var(–transition-duration) var(transition-cubic-bezier);
+    transition: var(–-transition-duration) var(--transition-cubic-bezier);
 }
 .card-work .card-inner {
-    transition: var(–transition-duration) var(transition-cubic-bezier);
+    transition: var(–-transition-duration) var(--transition-cubic-bezier);
 }
 
 
