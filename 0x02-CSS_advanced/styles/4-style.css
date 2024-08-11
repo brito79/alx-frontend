@@ -16,6 +16,10 @@
     --font-family-title : 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .section-tagline {
     color: var(--color-primary);
 }
