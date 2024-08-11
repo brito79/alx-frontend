@@ -358,7 +358,7 @@ template {
 /*===============section-title styles===============*/
 :root {
     --section-title-margin : 0;
-    --color-white : var(--color-black);
+    --section-title-color : var(--color-black);
 
 
 /*=============section-tagline==========*/
@@ -401,7 +401,7 @@ template {
     --color-white: #ffffff;
     --color-light-grey : #f3f3f3;
     --color-dark-grey : #353535;
-    --color-white : var(--color-black);
+    --text-color : var(--color-black);
 
 
 
@@ -592,6 +592,9 @@ ul.row {
 
 }
 
+/*==============================Add the theme to sections=========*/
 [data-section-theme=“dark”] {
-    background-color: var(--color-black);
+    --text-color : var(--color-white);
+    --section-title-color : var(--color-white);
+    background: var(--color-black);
 }
